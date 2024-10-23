@@ -1,0 +1,101 @@
+body {
+  background-color: #0e1111;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  border: 1px red solid;
+}
+
+.logo {
+  flex: 1;
+}
+
+.weather {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.textBanner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+  color: #ffffff;
+}
+
+.gretting {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.1rem;
+}
+
+.gretting-detail {
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 0.1rem;
+}
+
+.imageBanner {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageBanner img {
+  max-width: 100%;
+}
+
+.feature-project {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-item {
+  flex: 0 0 50%;
+  box-sizing: border-box;
+  padding: 1em;
+}
+
+.project-item img {
+  max-width: 100%;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
