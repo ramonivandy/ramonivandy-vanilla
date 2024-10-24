@@ -1,2 +1,2 @@
 # ramonivandy-vanilla
-My own portfolio website only using html, css, js (optional)
+In order to learn the basic, since i always use php & bootstrap for my last 5 years development 🫠
